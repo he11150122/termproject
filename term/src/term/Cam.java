@@ -23,7 +23,6 @@ public class Cam implements Runnable {
     @Override
     public void run() {
         FrameGrabber grabber = new VideoInputFrameGrabber(0);
-        int i=0;
         try {
             grabber.start();
             IplImage img;
